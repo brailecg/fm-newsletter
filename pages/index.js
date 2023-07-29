@@ -98,7 +98,11 @@ export default function Home() {
             <div
               className={`min-h-[320px] overflow-x-hidden relative rounded-b-2xl md:rounded-2xl bg-gradient-to-br from-[#FF6A3A] to-[#FF527B] h-full flex items-center justify-center`}>
               <div className={`w-[475px] h-[230px] absolute`}>
-                <Image src={"/images/home-img.png"} fill />
+                <Image
+                  src={"/images/home-img.png"}
+                  fill
+                  alt="Home page image"
+                />
               </div>
             </div>
           </div>
@@ -110,7 +114,12 @@ export default function Home() {
             !successModal ? "right-full" : "right-0"
           }`}>
           <div className={` w-full text-[#242742] space-y-7`}>
-            <Image src={"/images/check.png"} width={64} height={64} />
+            <Image
+              src={"/images/check.png"}
+              width={64}
+              height={64}
+              alt="Check Image"
+            />
             <h1 className={` text-[40px] leading-tight`}>
               Thanks for subscribing!
             </h1>
@@ -134,7 +143,12 @@ export default function Home() {
             <div
               className={`absolute hidden md:flex w-[504px] h-[520px] px-16 rounded-3xl flex-col justify-center items-center space-y-6 overflow-hidden transition-all bg-white z-50`}>
               <div className={` w-full text-[#242742] space-y-7`}>
-                <Image src={"/images/check.png"} width={64} height={64} />
+                <Image
+                  src={"/images/check.png"}
+                  width={64}
+                  height={64}
+                  alt="Check Image"
+                />
                 <h1 className={` text-[40px] leading-tight`}>
                   Thanks for subscribing!
                 </h1>
